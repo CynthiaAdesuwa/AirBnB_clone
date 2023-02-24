@@ -9,7 +9,7 @@ import models
 
 class BaseModel:
     """This class defines all common attributes/methods for other classes
-    
+
     Attributes:
         id (Public): string-assign with a uuid when an instance is created
         created_at: datetime-assign with the current datetime when
@@ -20,8 +20,8 @@ class BaseModel:
     """
     def __init__(self, *args, **kwargs):
         """Initializes the default attributes of the of the BaseModel object.
-        
-        Args:
+
+    Args:
             *args: unused.
             **kwargs (dict): a dictionnary containing wanted attributes.
         """
