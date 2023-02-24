@@ -1,13 +1,19 @@
-#!/usr/bin/python3
-"""Defines the State class."""
+#!/usr/bin/env python3
+"""
+Module that Contains a class
+
+
+Class State
+"""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """Represent a state.
+    """
+    Class that inherit from BaseModel
+    and defines the state of a room
     
     Attributes:
-        name (str): The name of the state.
+            name: string
     """
-
     name = ""
